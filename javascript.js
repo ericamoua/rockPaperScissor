@@ -38,10 +38,12 @@ document.getElementById("paper").addEventListener("click", () => {
     if(computerChoice === 'rock'){
         document.getElementById("output").textContent = 'You Win!!';
         winCounter++;
+        document.getElementById("winCounter").textContent = winCounter;
     }
     if(computerChoice === 'scissor'){
         document.getElementById("output").textContent = 'You Lose!!';
         loseCounter++;
+        document.getElementById("loseCounter").textContent = loseCounter;
     }
     if(computerChoice === 'paper'){
         document.getElementById("output").textContent = "It's a Tie!!";
@@ -55,10 +57,12 @@ document.getElementById("scissor").addEventListener("click", () => {
     if(computerChoice === 'paper'){
         document.getElementById("output").textContent = 'You Win!!';
         winCounter++;
+        document.getElementById("winCounter").textContent = winCounter;
     }
     if(computerChoice === 'rock'){
         document.getElementById("output").textContent = 'You Lose!!';
         loseCounter++;
+        document.getElementById("loseCounter").textContent = loseCounter;
     }
     if(computerChoice === 'scissor'){
         document.getElementById("output").textContent = "It's a Tie!!";
