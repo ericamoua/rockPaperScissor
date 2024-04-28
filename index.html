@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
  <!-- 1. Make a container for the cotent inside the page -->
  <!-- 2.TItile Rock Paper Scissor -->
@@ -15,20 +16,30 @@
     <main>
         <div class="game-container">
             <div class="game">
-                <h2>Rock Paper Scissor</h2>
+                <h2>Choose your weapon</h2>
+                <h3>Player VS Computer</h3>
+
                 <div class="button">
-                    <button class="rock">Rock</button>
-                    <button class="paper">Paper</button>
-                    <button class="scissor">Scissors</button>
+                    <button class="rock" id="rock">Rock</button>
+                    <button class="paper" id="paper">Paper</button>
+                    <button class="scissor" id="scissor">Scissor</button>
                 </div>
 
                 <div class="vs">
-                    <h3>Player VS Computer</h3>
-                    <h3>Choose your weapon</h3>
+                    <h3>Rock Paper Scissor</h3>
                     <h3>Results</h3>
+                    <p class="output" id="output"></p>
+                </div>
+                <div class="winLose">
+                    <h3>Wins</h3>
+                    <p id="winCounter"></p>
+
+                    <h3>Losses</h3>
+                    <p id="loseCounter"></p>
                 </div>
             </div>
         </div>
     </main>
+    <script src="javascript.js"></script>
 </body>
 </html>
