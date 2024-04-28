@@ -68,3 +68,10 @@ document.getElementById("scissor").addEventListener("click", () => {
         document.getElementById("output").textContent = "It's a Tie!!";
     }
 });
+
+document.getElementById('reset').addEventListener('click',()=> {
+    winCounter = 0;
+    loseCounter = 0;
+    document.getElementById("winCounter").textContent = winCounter;
+    document.getElementById("loseCounter").textContent = loseCounter;
+})
